@@ -1,0 +1,4 @@
+@EndUserText.label: 'test SD'
+define service ZMA_TEST {
+  expose ZMA_FLIGHT_DATA;
+}

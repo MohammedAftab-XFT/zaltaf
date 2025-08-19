@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition for Child'
+define service ZMA_SD_CHILD {
+  expose ZMA_CDS_CHILD;
+}

@@ -1,0 +1,5 @@
+INTERFACE zma_i_test
+  PUBLIC .
+  METHODS test1.
+
+ENDINTERFACE.

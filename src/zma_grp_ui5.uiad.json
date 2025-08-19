@@ -1,0 +1,45 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "descriptor for ZMA GRP FLP",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_ALV5_DEFAULT",
+    "targetMappingTitle": "descriptor for ZMA GRP FLP"
+  },
+  "ui5AppDetails": {
+    "appId": "zmagrpui5intent"
+  },
+  "navigation": {
+    "targetMappingId": "ZMA_GRP_UI5_TM",
+    "semanticObject": "ZMA_GenericReporting",
+    "action": "search",
+    "desktop": true,
+    "tablet": true,
+    "phone": true,
+    "parameters": [
+      {
+        "name": "TypeId",
+        "defaultValue": "/XFC/GRP_UI5_TRY"
+      }
+    ]
+  },
+  "tiles": [
+    {
+      "id": "ZMA_GRP_UI5_AL",
+      "tileType": "static",
+      "standard": {
+        "title": "ZMA Grp Test",
+        "tileNavigationParameters": [
+          {
+            "name": "TypeId",
+            "value": "/XFC/GRP_UI5_TRY"
+          }
+        ]
+      }
+    }
+  ]
+}

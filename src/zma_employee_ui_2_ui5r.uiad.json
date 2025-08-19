@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Test Employee Data",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Test Employee Data"
+  },
+  "ui5AppDetails": {
+    "appId": "zmaemployeeui"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_F1898978EA2A76EA47F84D83B77FD6CA466E9E8B_TM",
+    "semanticObject": "ZMA_EMP_UI",
+    "action": "display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_F1898978EA2A76EA47F84D83B77FD6CA466E9E8B_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Test Employee Data"
+      }
+    }
+  ]
+}

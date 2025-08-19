@@ -1,0 +1,36 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Test description",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_ALV5_DEFAULT",
+    "targetMappingTitle": "Test description"
+  },
+  "ui5AppDetails": {
+    "appId": "zmaemployeeui"
+  },
+  "navigation": {
+    "targetMappingId": "ZMA_TEST_DESCR_TM",
+    "semanticObject": "ZMA_EMP_UI",
+    "action": "display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true,
+    "additionalParameterHandling": "ignored"
+  },
+  "tiles": [
+    {
+      "id": "UI5R_9452A1FFF228F0C9126B90B7838AF374B8C67BFC_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Test Employee Data",
+        "icon": "sap-icon://account"
+      }
+    }
+  ]
+}

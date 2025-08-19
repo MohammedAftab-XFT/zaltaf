@@ -1,0 +1,4 @@
+@EndUserText.label: 'parallel request'
+define service ZMA_SD_PARA {
+  expose ZMA_PARALLEL_REQ;
+}

@@ -1,0 +1,20 @@
+managed implementation in class zbp_ma_parallel_req unique;
+strict ( 2 );
+
+define behavior for ZMA_PARALLEL_REQ //alias <alias_name>
+persistent table zma_db_emp
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create ( authorization : global );
+  update;
+  delete;
+  field ( readonly ) EmpId;
+
+//  mapping for zma_db_emp {
+//  EmpName = emp_name;
+//  Dept = dept;
+//  EmpId = emp_id;
+//  }
+}

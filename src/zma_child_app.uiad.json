@@ -1,0 +1,25 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Child App test",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_ALV5_DEFAULT",
+    "targetMappingTitle": "Child App test"
+  },
+  "ui5AppDetails": {
+    "appId": "zma_child_app"
+  },
+  "navigation": {
+    "targetMappingId": "ZMA_CHILD_APP_TM",
+    "semanticObject": "ZMA_CHILD",
+    "action": "create",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": []
+}

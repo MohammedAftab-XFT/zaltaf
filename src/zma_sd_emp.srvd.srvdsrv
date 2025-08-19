@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service definition of Employees'
+define service ZMA_SD_EMP {
+  expose ZMA_EMP_CDS;
+  expose ZMA_EMP_CHILD;
+}

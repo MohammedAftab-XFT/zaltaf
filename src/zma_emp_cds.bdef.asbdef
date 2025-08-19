@@ -1,0 +1,22 @@
+unmanaged implementation in class zbp_ma_emp_cds unique;
+strict(2);
+
+define behavior for ZMA_EMP_CDS //alias <alias_name>
+//with unmanaged save
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+  static action FI_Normal parameter ZMA_ABS_DOC result [1] $self;
+  static function FI_downloadDoc parameter ZMA_ABS_EMP result [1] ZMA_ABS_DOC;
+  static action FI_submit result [1] zma_abs_emp;
+  static action FI_initialize result[1] $self;
+  static action CreateObjInfoSession result [1] $self;
+  field ( readonly ) emp_id;
+
+
+
+}
